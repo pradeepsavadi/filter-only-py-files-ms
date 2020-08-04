@@ -3,6 +3,7 @@ import pandas as pd
 import sys
 import os
 import json
+import numpy 
 
 # utilize the pytd to load the data into TD
 os.system(f"{sys.executable} -m pip install -U pytd==0.8.0 td-client")
